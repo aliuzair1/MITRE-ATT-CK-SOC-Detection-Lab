@@ -1,4 +1,4 @@
-# MITRE-ATT-CK-SOC-Detection-Lab
+# MITRE-ATT&CK-SOC-Detection-Lab
 
 A comprehensive, end-to-end telemetry engineering and threat-hunting pipeline built to bridge the gap between offensive adversary simulation and defensive SIEM analysis.
 
