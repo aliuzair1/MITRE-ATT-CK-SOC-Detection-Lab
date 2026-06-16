@@ -153,13 +153,14 @@ index=windows EventCode=1 "SharpHound"
 - Process creation spike monitoring
 - Unauthorized binary execution tracking
 - Execution chain visibility
+<img src= "images/Dashboard_1.png">
 
 ### Log Proof-of-Concept
 
 - Full Event ID 1 analysis
 - Process context verification
 - Command-line auditing
-
+<img src= "images/POC_1.png" width=75%>
 ---
 
 # Technique 2: Registry Run Keys (T1547.001)
@@ -204,12 +205,12 @@ index=windows EventCode=13 TargetObject="*CurrentVersion*Run*"
 
 - Real-time monitoring of registry modifications
 - Startup persistence tracking
-
+<img src= "images/Dashboard_2.png">
 ### Log Proof-of-Concept
 
 - Validation of unauthorized registry additions
 - Run-key value analysis
-
+<img src= "images/POC_2.png" width = 75%>
 ---
 
 # Technique 3: Scheduled Task (T1053.005)
@@ -258,12 +259,12 @@ index=windows EventCode=4698
 
 - Scheduled task registration monitoring
 - XML event parsing dashboards
-
+<img src= "images/Dashboard_3.png">
 ### Log Proof-of-Concept
 
 - Task creation parameter extraction
 - Execution target validation
-
+<img src= "images/POC_3.png" width = 75%>
 ---
 
 # Technique 4: Clear Windows Event Logs (T1070.001)
@@ -306,12 +307,12 @@ index=windows EventCode=1102
 
 - High-severity anti-forensic event monitoring
 - Security log tampering detection
-
+<img src= "images/Dashboard_4.png">
 ### Log Proof-of-Concept
 
 - Administrative account attribution
 - Event log clearance confirmation
-
+<img src= "images/POC_4.png" width = 75%>
 ---
 
 # Technique 5: LSA Protection Registry Tampering (T1562.001)
@@ -362,12 +363,12 @@ index=windows EventCode=1 "MaliciousArtifactMock"
 
 - Defensive configuration monitoring
 - Process timeline analysis
-
+<img src= "images/Dashboard_5.png">
 ### Log Proof-of-Concept
 
 - Registry modification attribution
 - Command-line argument inspection
-
+<img src= "images/POC_5.png" width = 75%>
 ---
 
 # 📈 Enterprise SOC Dashboard Compilation
